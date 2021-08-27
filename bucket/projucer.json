@@ -1,0 +1,28 @@
+{
+    "homepage": "https://juce.com",
+    "description": "Deliver music apps for desktop and mobile, with the same code",
+    "version": "6.1.0",
+    "license": "Proprietary",
+    "url": "https://github.com/WeAreROLI/JUCE/releases/download/6.1.0/juce-6.1.0-windows.zip",
+    "hash": "bc60ee22d448f1f493516e3300adc58cbcf20d288cfc011a2d6e986d6cbdf4e7",
+    "extract_dir": "JUCE",
+    "bin": [
+        [
+            "Projucer.exe",
+            "projucer"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Projucer.exe",
+            "Projucer"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/WeAreROLI/JUCE",
+        "regex": "juce-([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/WeAreROLI/JUCE/releases/download/$version/juce-$version-windows.zip"
+    }
+}

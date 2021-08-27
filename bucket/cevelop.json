@@ -1,0 +1,29 @@
+{
+    "homepage": "https://www.cevelop.com",
+    "description": "The C++ IDE for professional developers",
+    "version": "1.14.1",
+    "license": "Proprietary",
+    "url": "https://www.cevelop.com/cevelop/downloads/cevelop-1.14.1-202002280945-win32.win32.x86_64.zip",
+    "hash": "faab8c00827f202226763075cf20eef0726c4fd30d893a8e048d68f4a3ce9fca",
+    "extract_dir": "cevelop-1.14.1",
+    "bin": [
+        [
+            "cevelop.exe",
+            "cevelop"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "cevelop.exe",
+            "Cevelop"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.cevelop.com/download/",
+        "regex": "/cevelop/downloads/cevelop-(?<version>[\\d.]+)-(?<date>[\\d]+)-win32.win32.x86_64.zip"
+    },
+    "autoupdate": {
+        "url": "https://www.cevelop.com/cevelop/downloads/cevelop-$matchVersion-$matchDate-win32.win32.x86_64.zip",
+        "extract_dir": "cevelop-$matchVersion"
+    }
+}

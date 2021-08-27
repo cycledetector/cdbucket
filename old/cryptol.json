@@ -1,0 +1,24 @@
+{
+    "homepage": "https://cryptol.net/",
+    "description": "Cryptol: The Language of Cryptography",
+    "version": "2.9.0",
+    "license": "BSD-3-Clause",
+    "url": "https://github.com/GaloisInc/cryptol/releases/download/2.9.0/cryptol-2.9.0-Windows-x86_64.msi",
+    "hash": "32b08f081c8bb143d5dada366fd6423ff1c535ba60045ea95818fb72dd12a0f3",
+    "depends": "z3",
+    "extract_dir": "PFiles/Galois/Cryptol 2.9.0",
+    "bin": [
+        [
+            "bin\\cryptol.exe",
+            "cryptol"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/GaloisInc/cryptol",
+        "regex": "cryptol-([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/GaloisInc/cryptol/releases/download/$version/cryptol-$version-Windows-x86_64.msi",
+        "extract_dir": "PFiles/Galois/Cryptol $version"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "homepage": "https://java-decompiler.github.io",
+    "description": "Yet another fast Java decompiler",
+    "version": "1.6.5",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/java-decompiler/jd-gui/releases/download/v1.6.5/jd-gui-windows-1.6.5.zip",
+    "hash": "e63314552897b5d43ad2cc5ec6095a351cdfcd510913d943c8176a8d4cb53a27",
+    "extract_dir": "jd-gui-windows-1.6.5",
+    "bin": [
+        [
+            "jd-gui.exe",
+            "jd-gui"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "jd-gui.exe",
+            "JD-GUI"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/java-decompiler/jd-gui"
+    },
+    "autoupdate": {
+        "url": "https://github.com/java-decompiler/jd-gui/releases/download/v$version/jd-gui-windows-$version.zip",
+        "extract_dir": "jd-gui-windows-$version"
+    }
+}

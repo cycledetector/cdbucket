@@ -1,0 +1,45 @@
+{
+    "homepage": "https://explorerplusplus.com/",
+    "description": "Explorer++ is a lightweight and fast file manager for Windows",
+    "version": "4.8.7",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Z3Prover/z3/releases/download/z3-4.8.7/z3-4.8.7-x64-win.zip",
+            "hash": "780874697a7aef2028d7b8bc31e78be760622e0c3823ed1731a6ee7072fa60cd",
+            "extract_dir": "z3-4.8.7-x64-win"
+        },
+        "32bit": {
+            "url": "https://github.com/Z3Prover/z3/releases/download/z3-4.8.7/z3-4.8.7-x86-win.zip",
+            "hash": "19c565e0f4202174968c1b4756e827069bf3881ae70ebf9505cfea4e00217b66",
+            "extract_dir": "z3-4.8.7-x86-win"
+        }
+    },
+    "bin": [
+        [
+            "bin\\Explorer++.exe",
+            "explorerplusplus"
+        ]
+    "shortcuts": [
+        [
+            "bin\\Explorer++.exe",
+            "Explorer++"
+        ]       
+    ],
+    "checkver": {
+        "github": "https://ci.appveyor.com/project/derceg/explorerplusplus",
+        "regex": "z3-([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Z3Prover/z3/releases/download/z3-$version/z3-$version-x64-win.zip",
+                "extract_dir": "z3-$version-x64-win"
+            },
+            "32bit": {
+                "url": "https://github.com/Z3Prover/z3/releases/download/z3-$version/z3-$version-x86-win.zip",
+                "extract_dir": "z3-$version-x86-win"
+            }
+        }
+    }
+}

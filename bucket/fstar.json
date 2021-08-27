@@ -1,0 +1,22 @@
+{
+    "homepage": "https://www.fstar-lang.org",
+    "description": "F* (pronounced F star) is a general-purpose functional programming language with effects aimed at program verification.",
+    "version": "2021.06.06",
+    "license": "Apache-2.0",
+    "url": "https://github.com/FStarLang/FStar/releases/download/v2021.06.06/fstar_2021.06.06_Windows_x64.zip",
+    "hash": "8e3d2875956e201a425178a3e72170ee010f9c407c60d5ef05335dc7a4a66113",
+    "extract_dir": "fstar",
+    "bin": [
+        [
+            "bin\\fstar.exe",
+            "fstar"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/FStarLang/FStar"
+    },
+    "autoupdate": {
+        "url": "https://github.com/FStarLang/FStar/releases/download/v$version/fstar_$version_Windows_x64.zip",
+        "extract_dir": "fstar"
+    }
+}

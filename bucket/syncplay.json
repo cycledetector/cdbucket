@@ -1,0 +1,28 @@
+{
+    "homepage": "https://syncplay.pl",
+    "description": "Client/server to synchronize media playback on mpv/VLC/MPC-HC/MPC-BE on many computers.",
+    "version": "1.6.9",
+    "license": "Apache-2.0",
+    "url": "https://github.com/Syncplay/syncplay/releases/download/v1.6.9/Syncplay_1.6.9_Portable.zip",
+    "hash": "80a5c8f1facb6fe6c5d9351ae1e8ff881727d637e0a316f7c5ab50796c6e3f5a",
+    "bin": [
+        [
+            "Syncplay.exe",
+            "syncplay"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Syncplay.exe",
+            "Syncplay"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Syncplay/syncplay",
+        "regex": "Syncplay\\s(?<version>[\\d.]+)(?<build>\\w)",
+        "replace": "${version}${build}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Syncplay/syncplay/releases/download/v$version/Syncplay_$version_Portable.zip"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "homepage": "https://andersmalmgren.github.io/FreePIE/",
+    "description": "FreePIE (Programmable Input Emulator) is a application for bridging and emulating input devices.",
+    "version": "1.11.724",
+    "license": "GPL-2.0-or-later",
+    "url": "https://github.com/AndersMalmgren/FreePIE/releases/download/1.11.724/FreePIE.1.11.724.0.msi",
+    "hash": "7993d308b1311a693b65ff6133a2533e1e5f367e7f11566d14f6854bc78a8486",
+    "extract_dir": "FreePIE",
+    "bin": [
+        ["FreePIE.exe", "freepie"]
+    ],
+    "shortcuts": [
+        ["FreePIE.exe", "FreePIE"]
+    ],
+    "checkver": 
+    {
+        "github": "https://github.com/AndersMalmgren/FreePIE",
+        "regex": "FreePIE.([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/AndersMalmgren/FreePIE/releases/download/$version/FreePIE.$version.0.msi"
+    }
+}

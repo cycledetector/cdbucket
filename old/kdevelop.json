@@ -1,0 +1,29 @@
+{
+    "homepage": "https://www.kdevelop.org",
+    "description": "KDevelop - A cross-platform IDE for C, C++, Python, QML/JavaScript and PHP",
+    "version": "1.12.1",
+    "license": "GPL-2.0-only",
+    "url": "https://www.cevelop.com/cevelop/downloads/cevelop-1.12.1-201907101456-win32.win32.x86_64.zip",
+    "hash": "843eb80c2d5fce6621b8f93e1f11fcf16d4d4c59c0b19958adc96cb5d819f65d",
+    "extract_dir": "cevelop-1.12.1",
+    "bin": [
+        [
+            "cevelop.exe",
+            "cevelop"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "cevelop.exe",
+            "Cevelop"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.kdevelop.org/download",
+        "regex": "KDevelop\\s(?<version>[\\d.]+)\\s(64bit)\\sinstaller"
+    },
+    "autoupdate": {
+        "url": "https://download.kde.org/stable/kdevelop/$version/bin/windows/kdevelop-$version-x64-setup.exe",
+        "hash": "https://download.kde.org/stable/kdevelop/$version/bin/windows/kdevelop-$version-x64-setup.exe.sha256",
+    }
+}

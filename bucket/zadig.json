@@ -1,0 +1,30 @@
+{
+    "homepage": "https://zadig.akeo.ie/",
+    "description": "Zadig is a Windows application that installs generic USB drivers",
+    "version": "2.5",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/pbatard/libwdi/releases/download/b730/zadig-2.5.exe",
+    "hash": "78a1a26854fbc848284588a62c7fbec9c652f6a3218ba543783d369265df00d6",
+    "installer": {
+        "script": "Rename-Item \"$dir\\zadig-$version.exe\" zadig.exe"
+    },
+    "bin": [
+        [
+            "zadig.exe",
+            "zadig"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "zadig.exe",
+            "Zadig"
+        ]
+    ],
+    "checkver": {
+        "url": "https://zadig.akeo.ie/",
+        "regex": "pbatard/libwdi/releases/download/b(?<build>[\\d]+)/zadig-(?<version>[\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://github.com/pbatard/libwdi/releases/download/b$matchBuild/zadig-$version.exe"
+    }
+}

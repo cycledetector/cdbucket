@@ -1,0 +1,54 @@
+{
+    "homepage": "https://www.eset.com/int/support/sysinspector/",
+    "description": "ESET SysInspector - free PC diagnostic tool",
+    "version": "1.4.2.0",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.eset.com/com/eset/tools/diagnosis/sysinspector/latest/sysinspector_nt64_enu.exe",
+            "hash": "3a541484ad5ee44eb550237a555331d303df2027648897fa65e43a1828593901",
+            "bin": [
+                [
+                    "sysinspector_nt64_enu.exe",
+                    "sysinspector"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "sysinspector_nt64_enu.exe",
+                    "ESET SysInspector"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://download.eset.com/com/eset/tools/diagnosis/sysinspector/latest/sysinspector_nt32_enu.exe",
+            "hash": "3bdabe454447b02c570590dd5c361b28b143e109669484f91623210b1dae579a",
+            "bin": [
+                [
+                    "sysinspector_nt32_enu.exe",
+                    "sysinspector"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "sysinspector_nt32_enu.exe",
+                    "ESET SysInspector"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://downloads.tomsguide.com/SysInspector-ESET,0301-12575.html",
+        "regex": "ESET\\sSysInspector\\s([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.eset.com/com/eset/tools/diagnosis/sysinspector/latest/sysinspector_nt64_enu.exe"
+            },
+            "32bit": {
+                "url": "https://download.eset.com/com/eset/tools/diagnosis/sysinspector/latest/sysinspector_nt32_enu.exe"
+            }
+        }
+    }
+}

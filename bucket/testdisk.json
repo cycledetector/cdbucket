@@ -1,0 +1,39 @@
+{
+    "homepage": "https://www.cgsecurity.org/wiki/TestDisk",
+    "description": "TestDisk is powerful free data recovery software!",
+    "version": "7.2",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.cgsecurity.org/testdisk-7.2-WIP.win64.zip",
+            "hash": "547bc512edfefec4d9d140c19afdad12e1cfc3c3e2e2ededb5c50f3fd8598949" 
+        },
+        "32bit": {
+            "url": "https://www.cgsecurity.org/testdisk-7.2-WIP.win.zip",
+            "hash": "8f7d03ca52f7e23f24fc06ec0d3f1d408a8ef8a233cc52bc9eccb6f36d944b23"
+        }
+    },
+    "extract_dir": "testdisk-7.2-WIP",
+    "bin": [
+        ["testdisk_win.exe", "testdisk"],
+        ["photorec_win.exe", "photorec"],
+        ["qphotorec_win.exe", "qphotorec"]
+    ],
+    "shortcuts": [
+        ["qphotorec_win.exe", "QPhotoRec"]
+    ],
+    "checkver": {
+        "url": "https://www.cgsecurity.org/wiki/TestDisk_Download",
+        "regex": "PhotoRec\\s([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.cgsecurity.org/Download_and_donate.php/testdisk-$version-WIP.win64.zip"
+            },
+            "32bit": {
+                "url": "https://www.cgsecurity.org/Download_and_donate.php/testdisk-$version-WIP.win.zip"
+            }
+        }
+    }
+}
