@@ -14,8 +14,7 @@
     ],
     "checkver": 
     {
-        "github": "https://github.com/AndersMalmgren/FreePIE",
-        "regex": "FreePIE.([\\d.]+)"
+        "github": "https://github.com/AndersMalmgren/FreePIE"
     },
     "autoupdate": {
         "url": "https://github.com/AndersMalmgren/FreePIE/releases/download/$version/FreePIE.$version.0.msi"
