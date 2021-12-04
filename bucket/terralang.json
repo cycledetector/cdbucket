@@ -1,0 +1,23 @@
+{
+    "homepage": "https://terralang.org/",
+    "description": "Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language.",
+    "version": "1.0.0-beta3",
+    "license": "MIT",
+    "url": "https://github.com/terralang/terra/releases/download/release-1.0.0-beta3/terra-Windows-x86_64-e4ec5d1.zip",
+    "hash": "0dff3319a50880a89f584ad0139926e1bbf3abfae6ec85ecaa010f75166bf1c1",
+    "extract_dir": "terra-Windows-x86_64-e4ec5d1",
+    "bin": [
+        [
+            "bin\\terra.exe",
+            "terra"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/terralang/terra/releases",
+        "regex": "release-(?<version>[\\d.]+-[\\w]+)/terra-Windows-x86_64-(?<build>[\\w]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/terralang/terra/releases/download/release-$matchVersion/terra-Windows-x86_64-$matchBuild.zip",
+        "extract_dir": "terra-Windows-x86_64-$matchBuild"
+    }
+}
