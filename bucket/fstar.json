@@ -16,7 +16,6 @@
         "github": "https://github.com/FStarLang/FStar"
     },
     "autoupdate": {
-        "url": "https://github.com/FStarLang/FStar/releases/download/v$version/fstar_$version_Windows_x64.zip",
-        "extract_dir": "fstar"
+        "url": "https://github.com/FStarLang/FStar/releases/download/v$version/fstar_$version_Windows_x64.zip"
     }
 }
