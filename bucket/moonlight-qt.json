@@ -17,6 +17,7 @@
             "Moonlight"
         ]
     ],
+    "persist": "Moonlight Game Streaming Project\\Moonlight.ini",
     "checkver": {
         "url": "https://github.com/moonlight-stream/moonlight-qt/releases",
         "regex": "MoonlightPortable-x64-(?<version>[\\d.]+).zip"
