@@ -22,6 +22,6 @@
         "regex": "MoonlightPortable-x64-(?<version>[\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v$version/MoonlightPortable-x64-$version.zip",
+        "url": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v$version/MoonlightPortable-x64-$version.zip"
     }
 }
