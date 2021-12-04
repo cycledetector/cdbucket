@@ -1,10 +1,10 @@
 {
     "homepage": "http://www.catacombae.org/hfsexplorer/",
     "description": "HFSExplorer is an application that can read Mac-formatted hard disks and disk images.",
-    "version": "2021.2.22",
+    "version": "2021.10.9",
     "license": "GPL-3.0-only",
-    "url": "https://sourceforge.net/projects/catacombae/files/HFSExplorer/2021.2.22/hfsexplorer-2021.2.22-bin.zip",
-    "hash": "sha1:fdca214444c0b6b7c2bce4bfbecdb6e77b91e674",
+    "url": "https://sourceforge.net/projects/catacombae/files/HFSExplorer/2021.10.9/hfsexplorer-2021.10.9-bin.zip",
+    "hash": "sha1:f814c633f2e1ab7a0c43aecab06007014d666b16",
     "bin": [
         [
             "bin\\hfsexplorer.exe",
