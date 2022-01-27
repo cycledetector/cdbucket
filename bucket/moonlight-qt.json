@@ -1,10 +1,10 @@
 {
     "homepage": "https://moonlight-stream.org/",
     "description": "GameStream client for PCs (Windows, Mac, Linux, and Steam Link)",
-    "version": "3.1.4",
+    "version": "3.2.0",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v3.1.4/MoonlightPortable-x64-3.1.4.zip",
-    "hash": "eff064ca49aed8ad8ce9e3812cb6b298bf17be36a3ff4715444e1c9a7ec24de2",
+    "url": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v3.2.0/MoonlightPortable-x64-3.2.0.zip",
+    "hash": "6a94355e459c19a34adcf04795b264567bc3652dcd41d47881374b04eac37789",
     "bin": [
         [
             "Moonlight.exe",
