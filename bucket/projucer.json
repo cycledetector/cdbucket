@@ -1,10 +1,10 @@
 {
     "homepage": "https://juce.com",
     "description": "Deliver music apps for desktop and mobile, with the same code",
-    "version": "6.1.5",
+    "version": "6.1.6",
     "license": "Proprietary",
-    "url": "https://github.com/WeAreROLI/JUCE/releases/download/6.1.5/juce-6.1.5-windows.zip",
-    "hash": "e468745e4393eddf4cf8150c167134bac6e05307c9743c59fd3415e7e798a2d2",
+    "url": "https://github.com/WeAreROLI/JUCE/releases/download/6.1.6/juce-6.1.6-windows.zip",
+    "hash": "b7410baa80463e585417e7d2af2053d8cddde03f30c656e793970d011b7c9174",
     "extract_dir": "JUCE",
     "bin": [
         [
