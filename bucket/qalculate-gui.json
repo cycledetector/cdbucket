@@ -1,16 +1,16 @@
 {
     "homepage": "https://qalculate.github.io/",
     "description": "Qalculate! is a multi-purpose cross-platform desktop calculator.",
-    "version": "4.1.0",
+    "version": "4.1.1",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Qalculate/libqalculate/releases/download/v4.1.0/qalculate-4.1.0-x64.msi",
-            "hash": "dd767c455599688cf4c76290c066c46323889657aaa8dfc81835fb617bf8a965"
+            "url": "https://github.com/Qalculate/libqalculate/releases/download/v4.1.1/qalculate-4.1.1-x64.msi",
+            "hash": "dc08821ae0e68abef08b2d5be8bcb2d54f9f499c63348c984db3366d1948b9ca"
         },
         "32bit": {
-            "url": "https://github.com/Qalculate/libqalculate/releases/download/v4.1.0/qalculate-4.1.0-i386.msi",
-            "hash": "3cb8be85534b21130c5400f40f7ac04f7944b7fd07a49293655033983790c4f7"
+            "url": "https://github.com/Qalculate/libqalculate/releases/download/v4.1.1/qalculate-4.1.1-i386.msi",
+            "hash": "2865eb7bd1251f68e4d7e3c95dd303fef702ab7f7f73bc3c579055f843095a95"
         }
     },
     "bin": [
