@@ -1,10 +1,10 @@
 {
     "homepage": "https://stockfishchess.org",
     "description": "Strong open source chess engine",
-    "version": "14",
+    "version": "15",
     "license": "GPL-3.0-only",
-    "url": "https://stockfishchess.org/files/stockfish_14_win_x64_avx2.zip",
-    "hash": "ba08eb34291b8d4fbaf7ee0bbd93bcd21c20813c55b1f84e3891ae415abb77a5",
+    "url": "https://stockfishchess.org/files/stockfish_15_win_x64_avx2.zip",
+    "hash": "26d76538ffe90efaecabd4abf512b49877c3fee294aef226317c8dc1fc1d1806",
     "bin": [
         [
             "stockfish_20090216_x64_avx2.exe",
