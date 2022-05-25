@@ -14,10 +14,10 @@
     ],
     "checkver": {
         "url": "https://github.com/terralang/terra/releases",
-        "regex": "release-(?<version>[\\d.]+-[\\w]+)/terra-Windows-x86_64-(?<build>[\\w]+).zip"
+        "regex": "release-(?<version>[\\d.]+-[\\w]+)/terra-Windows-x86_64-(?<build>[\\w]+).7z"
     },
     "autoupdate": {
-        "url": "https://github.com/terralang/terra/releases/download/release-$matchVersion/terra-Windows-x86_64-$matchBuild.zip",
+        "url": "https://github.com/terralang/terra/releases/download/release-$matchVersion/terra-Windows-x86_64-$matchBuild.7z",
         "extract_dir": "terra-Windows-x86_64-$matchBuild"
     }
 }
