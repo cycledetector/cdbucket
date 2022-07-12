@@ -1,18 +1,18 @@
 {
     "homepage": "https://github.com/Z3Prover/z3",
     "description": "The Z3 Theorem Prover",
-    "version": "4.8.17",
+    "version": "4.9.1",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Z3Prover/z3/releases/download/z3-4.8.17/z3-4.8.17-x64-win.zip",
-            "hash": "618b8138f75d1b07b48fbdf7165e78b7e07f8f14f2b4da5fdf48be46e609b001",
-            "extract_dir": "z3-4.8.17-x64-win"
+            "url": "https://github.com/Z3Prover/z3/releases/download/z3-4.9.1/z3-4.9.1-x64-win.zip",
+            "hash": "60c64cb7d6c76b1910a49463a9b00696aaeb91a2378a45151531de3f193a54a0",
+            "extract_dir": "z3-4.9.1-x64-win"
         },
         "32bit": {
-            "url": "https://github.com/Z3Prover/z3/releases/download/z3-4.8.17/z3-4.8.17-x86-win.zip",
-            "hash": "610bec987f74d2c643e6a2a58e66d9ba8a3531fade439663b3505915862258c7",
-            "extract_dir": "z3-4.8.17-x86-win"
+            "url": "https://github.com/Z3Prover/z3/releases/download/z3-4.9.1/z3-4.9.1-x86-win.zip",
+            "hash": "7d9c81eaba89ac7de73e308f7de471afc434e38eb83b77ba89d15a84aa4efd96",
+            "extract_dir": "z3-4.9.1-x86-win"
         }
     },
     "bin": [
