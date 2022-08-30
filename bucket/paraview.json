@@ -4,7 +4,7 @@
     "version": "5.11.0-RC1",
     "license": "3-Clause BSD",
     "url": "https://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v5.11&type=binary&os=Windows&downloadFile=ParaView-5.11.0-RC1-Windows-Python3.9-msvc2017-AMD64.zip",
-    "hash": "7B1511A7E6A515CCAD26571E2E04A23F9FA04FBD46774DFCD99AF4AEF8299818",
+    "hash": "339C3CCDD04A8E13DC272940813712C6550E69C4282DBF84DDD147F33CA847C2",
     "extract_dir": "ParaView-5.11.0-RC1-Windows-Python3.9-msvc2017-AMD64",
     "bin": [
         [
