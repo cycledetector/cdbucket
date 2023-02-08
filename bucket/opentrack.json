@@ -9,6 +9,7 @@
             "hash": "c86cebfb8842ba8ca04892a129e722036a25b7df4372780a024d7a5a347f96f1"
         }
     },
+    "extract_dir": "install",
     "bin": [
         [
             "opentrack.exe",
