@@ -9,7 +9,7 @@
             "hash": "3f618833df77d3e7aa28229d426772b9f568724c85f2446c6bb952a162517240"
         }
     },
-    "extract_dir": "aitrack-v$version",
+    "extract_dir": "aitrack-v0.7.1",
     "bin": [
         [
             "AITrack.exe",
