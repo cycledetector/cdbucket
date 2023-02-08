@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/AIRLegend/aitrack",
     "description": "6DoF Head tracking software",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dcs-liberation/dcs_liberation/releases/download/6.1.1/dcs_liberation.6.1.1.zip",
-            "hash": "2b3fed7733be48804cb62df95c45a0114144c14fc9a3e70765eb411613afb430"
+            "url": "https://github.com/AIRLegend/aitrack/releases/download/v0.7.1-alpha/aitrack-v0.7.1.zip",
+            "hash": "3f618833df77d3e7aa28229d426772b9f568724c85f2446c6bb952a162517240"
         }
     },
     "bin": [
