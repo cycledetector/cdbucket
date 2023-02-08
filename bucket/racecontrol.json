@@ -9,7 +9,6 @@
             "hash": "3bbf2b2de7ecdc7f954bc38ea13e7b87a76ba1669141de24d8b3e325f9c405d6"
         }
     },
-    "extract_dir": "install",
     "bin": [
         [
             "RaceControl.exe",
