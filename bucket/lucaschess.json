@@ -8,13 +8,13 @@
     "extract_dir": "LucasChessR",
     "bin": [
         [
-            "LucasR.exe",
+            "bin\\LucasR.exe",
             "lucas"
         ]
     ],
     "shortcuts": [
         [
-            "LucasR.exe",
+            "bin\\LucasR.exe",
             "Lucas Chess"
         ]
     ],
