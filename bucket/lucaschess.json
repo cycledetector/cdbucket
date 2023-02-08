@@ -18,12 +18,12 @@
             "Lucas Chess"
         ]
     ],
-    "persist": "UsrData",
+    "persist": "UserData",
     "checkver": {
         "url": "https://lucaschess.pythonanywhere.com/downloads",
         "regex": "Version\\sR\\s(?<version>[\\d.]+\\w)"
     },
     "autoupdate": {
-        "url": "https://deac-ams.dl.sourceforge.net/project/lucaschessr/Version_R2/LucasChessR02_05d.exe"
+        "url": "https://deac-ams.dl.sourceforge.net/project/lucaschessr/Version_R2/LucasChessR02_05d.exe#/dl.7z"
     }
 }
