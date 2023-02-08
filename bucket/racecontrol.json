@@ -1,0 +1,35 @@
+{
+    "homepage": "https://github.com/robvdpol/RaceControl",
+    "description": "Race Control is a standalone, open source F1TV client for Windows, written in C# on the .NET platform.",
+    "version": "2.6.4",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/robvdpol/RaceControl/releases/download/2.6.4/RaceControl_2.6.4_x64_portable.zip",
+            "hash": "3bbf2b2de7ecdc7f954bc38ea13e7b87a76ba1669141de24d8b3e325f9c405d6"
+        }
+    },
+    "extract_dir": "install",
+    "bin": [
+        [
+            "RaceControl.exe",
+            "racecontrol"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "RaceControl.exe",
+            "Race Control"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/robvdpol/RaceControl"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/robvdpol/RaceControl/releases/download/$version/RaceControl_$version_x64_portable.zip"
+            }
+        }
+    }
+}
