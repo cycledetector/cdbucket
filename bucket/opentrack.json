@@ -1,0 +1,35 @@
+{
+    "homepage": "https://github.com/opentrack/opentrack",
+    "description": "Head tracking software for MS Windows, Linux, and Apple OSX",
+    "version": "2022.3.1",
+    "license": "ISC",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dcs-liberation/dcs_liberation/releases/download/6.1.1/dcs_liberation.6.1.1.zip",
+            "hash": "2b3fed7733be48804cb62df95c45a0114144c14fc9a3e70765eb411613afb430"
+        }
+    },
+    "bin": [
+        [
+            "opentrack.exe",
+            "opentrack"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "opentrack.exe",
+            "opentrack"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/opentrack/opentrack",
+        "regex": "opentrack ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/opentrack/opentrack/releases/download/opentrack-$version/opentrack-$version-win32-portable.7z"
+            }
+        }
+    }
+}
