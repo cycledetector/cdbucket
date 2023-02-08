@@ -9,6 +9,7 @@
             "hash": "2b3fed7733be48804cb62df95c45a0114144c14fc9a3e70765eb411613afb430"
         }
     },
+    "extract_dir": "dcs_liberation",
     "bin": [
         [
             "liberation_main.exe",
