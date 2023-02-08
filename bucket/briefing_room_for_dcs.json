@@ -9,6 +9,7 @@
             "hash": "F45F0A8C93727FBD239A1B7D35DB05CE4DE5E6A3D488CAEB7278FADE91FB1EC5"
         }
     },
+    "extract_dir": "BriefingRoom-build230128-000104",
     "bin": [
         [
             "BriefingRoomDesktop.exe",
