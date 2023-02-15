@@ -24,6 +24,6 @@
     },
     "autoupdate": {
         "url": "https://download.kde.org/stable/kdevelop/$version/bin/windows/kdevelop-$version-x64-setup.exe",
-        "hash": "https://download.kde.org/stable/kdevelop/$version/bin/windows/kdevelop-$version-x64-setup.exe.sha256",
+        "hash": "https://download.kde.org/stable/kdevelop/$version/bin/windows/kdevelop-$version-x64-setup.exe.sha256"
     }
 }
