@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.foobar2000.org/files/foobar2000-x64_v2.0_beta_34.exe#/dl.7z",
-            "hash": "7c286cd4c3b0f8f53bab57bc47d55b6053dcd9d6f9e3d078ba403ce21aa99198"
+            "hash": "4f0a8aa6cd9bb4422801c2ab33f00ecb38a7238a2e2dd56a89993ee334489027"
         },
         "32bit": {
             "url": "https://www.foobar2000.org/files/foobar2000_v2.0_beta_34.exe#/dl.7z",
