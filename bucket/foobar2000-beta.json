@@ -53,7 +53,7 @@
     "checkver": {
         "url": "https://www.foobar2000.org/download",
         "regex": "foobar2000_v(?<number>[\\d.]+)_beta_(?<build>[\\d]+)\\.",
-        "replace": "${number} beta ${build}"
+        "replace": "${number}_beta_${build}"
     },
     "autoupdate": {
         "architecture": {
