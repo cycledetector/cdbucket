@@ -4,7 +4,7 @@
     "version": "2.06b",
     "license": "GPL-2.0-or-later",
     "url": "https://sourceforge.net/projects/lucaschessr/files/Version_R2/LucasChessR02_06b.exe#/dl.7z",
-    "hash": "sha1:8a12b711b9e481716e72a8cce124ecbdf79556b9",
+    "hash": "sha1:bf625d0e833d86d3231b38b58f11a17eec93e43b",
     "extract_dir": "LucasChessR",
     "bin": [
         [
@@ -21,9 +21,10 @@
     "persist": "UserData",
     "checkver": {
         "url": "https://lucaschess.pythonanywhere.com/downloads",
-        "regex": "Version\\sR\\s(?<version>[\\d.]+\\w)"
+        "regex": "Version\\sR\\s(?<major>[\\d]+)\\.(?<minor>[\\d]+)b",
+        "replace": "${major}.${minor}b"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/lucaschessr/files/Version_R2/LucasChessR02_06b.exe#/dl.7z"
+        "url": "https://sourceforge.net/projects/lucaschessr/files/Version_R2/LucasChessR0$matchMajor_$matchMinorb.exe#/dl.7z"
     }
 }
