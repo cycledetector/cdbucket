@@ -28,7 +28,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AIRLegend/aitrack/releases/download/v$version-alpha/aitrack-v$version.zip"
+                "url": "https://github.com/AIRLegend/aitrack/releases/download/v$version-alpha/aitrack-v$version.zip",
+                "extract_dir": "aitrack-v$version"
             }
         }
     }
