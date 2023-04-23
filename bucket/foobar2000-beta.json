@@ -11,12 +11,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.foobar2000.org/files/foobar2000_v2.0_beta_34.exe#/dl.7z",
-            "hash": "330b7203622f0a952d963f30bbce856f90b50d3ca2262eabba494cfed9bd78e4"
-        },
-        "32bit": {
             "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v2.0_beta_34.exe#/dl.7z",
             "hash": "7c286cd4c3b0f8f53bab57bc47d55b6053dcd9d6f9e3d078ba403ce21aa99198"
+        },
+        "32bit": {
+            "url": "https://www.foobar2000.org/files/foobar2000_v2.0_beta_34.exe#/dl.7z",
+            "hash": "330b7203622f0a952d963f30bbce856f90b50d3ca2262eabba494cfed9bd78e4"
         }
     },
     "installer": {
@@ -58,10 +58,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.foobar2000.org/files/foobar2000_v$matchNumber_beta_$matchBuild.exe#/dl.7z"
+                "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v$matchNumber_beta_$matchBuild.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v$matchNumber_beta_$matchBuild.exe#/dl.7z"
+                "url": "https://www.foobar2000.org/files/foobar2000_v$matchNumber_beta_$matchBuild.exe#/dl.7z"
             }
         }
     }
