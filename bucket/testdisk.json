@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.cgsecurity.org/testdisk-7.2-WIP.win64.zip",
-            "hash": "547bc512edfefec4d9d140c19afdad12e1cfc3c3e2e2ededb5c50f3fd8598949" 
+            "hash": "0d5a140f6e791d3b16aa9f43f724c665d61a41238cf81dbe815785f30e3dd4f3" 
         },
         "32bit": {
             "url": "https://www.cgsecurity.org/testdisk-7.2-WIP.win.zip",
