@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/akaAgar/briefing-room-for-dcs",
     "description": "An advanced mission generator for Eagle Dynamic's DCS World.",
-    "version": "0.5.301.28",
+    "version": "230417-230489",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases/download/beta-release-230128-000104-4029140243-1/BriefingRoomV0-5-301-28.zip",
-            "hash": "F45F0A8C93727FBD239A1B7D35DB05CE4DE5E6A3D488CAEB7278FADE91FB1EC5"
+            "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases/download/beta-release-230417-230489-4726824093-1/beta-release-230417-230489.zip",
+            "hash": "63db80caad41e851950f9d6d3f3987e3ea9cafd43aa48cfb7f049978c73cfa2f"
         }
     },
-    "extract_dir": "BriefingRoom-build230128-000104",
+    "extract_dir": "BriefingRoom-build230417-230489",
     "bin": [
         [
             "BriefingRoomDesktop.exe",
@@ -21,5 +21,14 @@
             "BriefingRoomDesktop.exe",
             "BriefingRoom"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases",
+        "regex": "akaAgar/briefing-room-for-dcs/tree/beta-release-(?<first>[\\d]+)-(?<second>[\\d]+)-(?<third>[\\d]+)-1",
+        "replace": "${first}-${second}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases/download/beta-release-$matchFirst-$matchSecond-$matchThird-1/beta-release-$version.zip",
+        "extract_dir": "BriefingRoom-build$version"
+    }
 }
