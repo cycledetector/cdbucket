@@ -49,7 +49,7 @@
     "checkver": {
         "url": "https://www.foobar2000.org/download",
         "regex": "foobar2000-x64_v(?<number>[\\d.]+)_preview_(?<build>[\\d-]+)\\.",
-        "replace": "${number} preview ${build}"
+        "replace": "${number}_preview_${build}"
     },
     "autoupdate": {
         "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v$matchNumber_preview_$matchBuild.exe#/dl.7z"
