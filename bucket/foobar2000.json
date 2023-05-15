@@ -9,8 +9,8 @@
     "suggest": {
         "Encoders": "extras/foobar2000-encoders"
     },
-    "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v2.1_preview_2023-05-09.exe#/dl.7z",
-    "hash": "A11804436B66D0E547D0FDAABFDC60E93B42CB8CC55966EF07D49350F7DDEEE5",
+    "url": "https://www.foobar2000.org/files/foobar2000-x64_v2.1_preview_2023-05-09.exe#/dl.7z",
+    "hash": "baf3c861beba734dec03eb9b4d20d66b2017e5ba2b6017c486251c7af940cef5",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Force -Recurse",
@@ -48,6 +48,6 @@
         "replace": "${number}_preview_${build}"
     },
     "autoupdate": {
-        "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v$matchNumber_preview_$matchBuild.exe#/dl.7z"
+        "url": "https://www.foobar2000.org/files/foobar2000-x64_v$matchNumber_preview_$matchBuild.exe#/dl.7z"
     }
 }
