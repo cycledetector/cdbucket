@@ -9,12 +9,8 @@
     "suggest": {
         "Encoders": "extras/foobar2000-encoders"
     },
-    "architecture": {
-        "64bit": {
-            "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v2.1_preview_2023-05-09.exe#/dl.7z",
-            "hash": "8da58543b255e9234e8c311ea00c2a1f4e9dcb30728ea00af6d6d477e740d3ab"
-        }
-    },
+    "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v2.1_preview_2023-05-09.exe#/dl.7z",
+    "hash": "A11804436B66D0E547D0FDAABFDC60E93B42CB8CC55966EF07D49350F7DDEEE5",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Force -Recurse",
