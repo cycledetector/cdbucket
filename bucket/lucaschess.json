@@ -1,10 +1,10 @@
 {
     "homepage": "https://lucaschess.pythonanywhere.com/",
     "description": "Chess program to train, play and compete.",
-    "version": "2.06b",
+    "version": "2.07a",
     "license": "GPL-2.0-or-later",
-    "url": "https://sourceforge.net/projects/lucaschessr/files/Version_R2/LucasChessR02_06b.exe#/dl.7z",
-    "hash": "sha1:bf625d0e833d86d3231b38b58f11a17eec93e43b",
+    "url": "https://sourceforge.net/projects/lucaschessr/files/Version_R2/LucasChessR02_07a.exe#/dl.7z",
+    "hash": "sha1:d2a2fa64ae58d39e81bfed14f73d4026c403f407",
     "extract_dir": "LucasChessR",
     "bin": [
         [
@@ -21,10 +21,10 @@
     "persist": "UserData",
     "checkver": {
         "url": "https://lucaschess.pythonanywhere.com/downloads",
-        "regex": "Version\\sR\\s(?<major>[\\d]+)\\.(?<minor>[\\d]+)b",
-        "replace": "${major}.${minor}b"
+        "regex": "Version\\sR\\s(?<major>[\\d]+)\\.(?<minor>[\\d]+)(?<build>[\\w]+)",
+        "replace": "${major}.${minor}${build}"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/lucaschessr/files/Version_R2/LucasChessR0$matchMajor_$matchMinorb.exe#/dl.7z"
+        "url": "https://sourceforge.net/projects/lucaschessr/files/Version_R2/LucasChessR0$matchMajor_$matchMinor$matchBuild.exe#/dl.7z"
     }
 }
