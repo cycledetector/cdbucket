@@ -1,5 +1,5 @@
 {
-    "version": "2.0_beta_34",
+    "version": "2.1 preview 2023-05-09",
     "description": "An advanced freeware audio player for the Windows platform. Beta Version",
     "homepage": "https://www.foobar2000.org/",
     "license": {
@@ -11,12 +11,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.foobar2000.org/files/foobar2000-x64_v2.0_beta_34.exe#/dl.7z",
-            "hash": "4f0a8aa6cd9bb4422801c2ab33f00ecb38a7238a2e2dd56a89993ee334489027"
-        },
-        "32bit": {
-            "url": "https://www.foobar2000.org/files/foobar2000_v2.0_beta_34.exe#/dl.7z",
-            "hash": "330b7203622f0a952d963f30bbce856f90b50d3ca2262eabba494cfed9bd78e4"
+            "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v2.1_preview_2023-05-09.exe#/dl.7z",
+            "hash": "8da58543b255e9234e8c311ea00c2a1f4e9dcb30728ea00af6d6d477e740d3ab"
         }
     },
     "installer": {
@@ -52,17 +48,10 @@
     "persist": "profile",
     "checkver": {
         "url": "https://www.foobar2000.org/download",
-        "regex": "foobar2000_v(?<number>[\\d.]+)_beta_(?<build>[\\d]+)\\.",
-        "replace": "${number}_beta_${build}"
+        "regex": "foobar2000-x64_v(?<number>[\\d.]+)_preview_(?<build>[\\d-]+)\\.",
+        "replace": "${number} preview ${build}"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v$matchNumber_beta_$matchBuild.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://www.foobar2000.org/files/foobar2000_v$matchNumber_beta_$matchBuild.exe#/dl.7z"
-            }
-        }
+        "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v$matchNumber_preview_$matchBuild.exe#/dl.7z"
     }
 }
