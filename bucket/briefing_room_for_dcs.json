@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/akaAgar/briefing-room-for-dcs",
     "description": "An advanced mission generator for Eagle Dynamic's DCS World.",
-    "version": "230529-170530",
+    "version": "230609-120616",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases/download/beta-release-230529-170530-5113925505-1/beta-release-230529-170530.zip",
-            "hash": "8e709a54a8d7c630c06638d2b544700c1b410546624c54edaf8c7d9bd40138b2"
+            "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases/download/beta-release-230609-120616-5222015799-1/beta-release-230609-120616.zip",
+            "hash": "13409dd1c9d37b037fca2fdb0de3849ce1fe61fecc33b462df5474489233a63c"
         }
     },
-    "extract_dir": "BriefingRoom-build230529-170530",
+    "extract_dir": "BriefingRoom-build230609-120616",
     "bin": [
         [
             "BriefingRoomDesktop.exe",
