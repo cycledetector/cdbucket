@@ -9,6 +9,11 @@
             "hash": "ab15975d0ed22f72c5ad7719c95feb34cf7457d118dc89d82b39996c8d54e6c5"
         }
     },
+    "installer": {
+        "script": [
+            "7z x (Get-ChildItem -Filter *.exe | Select-Object Select-Object -ExpandProperty Name)",
+            "Remove-Item Uninstall.exe"
+    },
     "bin": [
         [
             "bin\\faust.exe",
