@@ -13,6 +13,7 @@
         "script": [
             "7z x (Get-ChildItem -Filter *.exe | Select-Object Select-Object -ExpandProperty Name)",
             "Remove-Item Uninstall.exe"
+        ]
     },
     "bin": [
         [
