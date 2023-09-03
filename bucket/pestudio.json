@@ -3,7 +3,7 @@
     "description": "Malware Initial Assessment",
     "version": "9.54",
     "license": "Freeware",
-    "url": "https://www.winitor.com/tools/pestudio/current/pestudio.zip",
+    "url": "https://www.winitor.com/tools/pestudio/current/pestudio-9.54.zip",
     "hash": "b9d4f4881ae8f54170fe97e35340aa651350f226da4ee2f0bf87ce9b5ac41ea4",
     "extract_dir": "pestudio",
     "bin": [
@@ -23,7 +23,7 @@
         "regex": "pestudio <!-- -->([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://www.winitor.com/tools/pestudio/current/pestudio.zip",
+        "url": "https://www.winitor.com/tools/pestudio/current/pestudio-$version.zip",
         "hash": {
             "url": "https://www.winitor.com/download2/",
             "find": "$sha256"
