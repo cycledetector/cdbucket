@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/akaAgar/briefing-room-for-dcs",
     "description": "An advanced mission generator for Eagle Dynamic's DCS World.",
-    "version": "230901-180978",
+    "version": "231005-061000",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases/download/beta-release-230901-180978-6052873918-1/beta-release-230901-180978.zip",
-            "hash": "fb2874d20960438ae0a75c4fa2daf990f464f7eade8fb54da1dd1bebb2a193cd"
+            "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases/download/beta-release-231005-061000-6415404425-1/BriefingRoomV0-5-310-04-Hotfix1.zip",
+            "hash": "61f2a928e21fe1815b99ca7f4fc4f3b03ee800217aaede8ad6c4b10f59190aad"
         }
     },
-    "extract_dir": "BriefingRoom-build230901-180978",
+    "extract_dir": "BriefingRoom-build231005-061000",
     "bin": [
         [
             "BriefingRoomDesktop.exe",
@@ -28,7 +28,7 @@
         "replace": "${first}-${second}"
     },
     "autoupdate": {
-        "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases/download/beta-release-$matchFirst-$matchSecond-$matchThird-1/beta-release-$version.zip",
+        "url": "https://github.com/akaAgar/briefing-room-for-dcs/releases/download/beta-release-231005-061000-6415404425-1/BriefingRoomV0-5-310-04-Hotfix1.zip",
         "extract_dir": "BriefingRoom-build$version"
     }
 }
