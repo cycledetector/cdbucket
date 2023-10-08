@@ -1,17 +1,15 @@
 {
     "homepage": "https://faust.grame.fr/",
     "description": "Functional Programming Language for Real Time Signal Processing",
-    "version": "2.60.3",
+    "version": "2.68.1",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grame-cncm/faust/releases/download/2.60.3/Faust-2.60.3-win64.exe",
-            "hash": "ab15975d0ed22f72c5ad7719c95feb34cf7457d118dc89d82b39996c8d54e6c5"
+            "url": "https://github.com/grame-cncm/faust/releases/download/2.68.1/Faust-2.68.1-win64.exe",
+            "hash": "18868e88ef02e951d571cdc889e348339ac293b7910035914d4672c5d3689ff2"
         }
     },
-    "pre_install": [
-            "7z x \"$dir\"(Get-ChildItem -Filter Faust*.exe | Select-Object -ExpandProperty Name) -o\"$dir\""
-        ],
+    "pre_install": "7z x \"$dir\"(Get-ChildItem -Filter Faust*.exe | Select-Object -ExpandProperty Name) -o\"$dir\"",
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
         "Remove-Item \"$dir\\Uninstall.exe\" -Force",
