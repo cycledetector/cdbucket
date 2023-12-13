@@ -1,21 +1,26 @@
 {
     "homepage": "http://leanprover.github.io/",
     "description": "Lean Theorem Prover",
-    "version": "3.4.2",
+    "version": "4.3.0",
     "license": "Apache-2.0",
-    "url": "https://github.com/leanprover/lean/releases/download/v3.4.2/lean-3.4.2-windows.zip",
-    "hash": "ee137910b952618e0be564e3e62617c76c24ed1a0879c3a7adf518236fa659f0",
-    "extract_dir": "lean-3.4.2-windows",
+    "url": "https://github.com/leanprover/lean4/releases/download/v4.3.0/lean-4.3.0-windows.zip",
+    "hash": "9e6129fbed767ac12a788d4f78ba161ed87801c65f7d5e4dec3115a1ceb4fe8e",
+    "extract_dir": "lean-4.3.0-windows",
     "bin": [
-        ["bin\\lean.exe", "lean"],
-        ["bin\\leanchecker.exe", "leanchecker"],
-        ["bin\\leanpkg.bat", "leanpkg"]
+        [
+            "bin\\lean.exe",
+            "lean"
+        ],
+        [
+            "bin\\lake",
+            "lake"
+        ]
     ],
     "checkver": {
-        "github": "https://github.com/leanprover/lean"
+        "github": "https://github.com/leanprover/lean4"
     },
     "autoupdate": {
-        "url": "https://github.com/leanprover/lean/releases/download/v$version/lean-$version-windows.zip",
+        "url": "https://github.com/leanprover/lean4/releases/download/v$version/lean-$version-windows.zip",
         "extract_dir": "lean-$version-windows"
     }
 }
