@@ -1,10 +1,10 @@
 {
     "homepage": "https://lucaschess.pythonanywhere.com/",
     "description": "Chess program to train, play and compete.",
-    "version": "2.11",
+    "version": "2.11c",
     "license": "GPL-2.0-or-later",
-    "url": "https://sourceforge.net/projects/lucaschessr/files/Version_R2/LucasChessR02_11.exe#/dl.7z",
-    "hash": "sha1:f94cd184e59184a7e8b5d5f6e88095df0530eb3e",
+    "url": "https://sourceforge.net/projects/lucaschessr/files/Version_R2/LucasChessR02_11c.exe#/dl.7z",
+    "hash": "sha1:ec1c2b6580d27ecae4dae403ac5d6688815b2517",
     "extract_dir": "LucasChessR",
     "bin": [
         [
