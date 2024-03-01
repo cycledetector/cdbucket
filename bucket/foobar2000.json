@@ -1,5 +1,5 @@
 {
-    "version": "2.2_preview_2024-02-12",
+    "version": "2.2_preview_2024-02-28",
     "description": "An advanced freeware audio player for the Windows platform. Beta Version",
     "homepage": "https://www.foobar2000.org/",
     "license": {
@@ -9,8 +9,8 @@
     "suggest": {
         "Encoders": "extras/foobar2000-encoders"
     },
-    "url": "https://www.foobar2000.org/files/foobar2000-x64_v2.2_preview_2024-02-12.exe#/dl.7z",
-    "hash": "6975f39348e3f37d5cded085f6e1204d933aa0594980402db18211706e752d91",
+    "url": "https://www.foobar2000.org/files/foobar2000-x64_v2.2_preview_2024-02-28.exe#/dl.7z",
+    "hash": "abfa7781469034b961d22073d6104c3a2a862e8d92b142c1970fc43a6795ec4c",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Force -Recurse",
