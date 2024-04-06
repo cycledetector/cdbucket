@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.uwe-sieber.de/usbtreeview_e.html",
     "description": "The USB Device Tree Viewer",
-    "version": "4.0.6",
+    "version": "4.2.0",
     "license": "Freeware",
     "url": "https://www.uwe-sieber.de/files/UsbTreeView_x64.zip",
-    "hash": "319e860b9dd22fc77e3060a420e76defc8320b15713b4b9f12baeb8b5e9f0e1d",
+    "hash": "679b5b28cb8e762d56931245b4db18da95e6eb04518366a73207772d79fd108e",
     "bin": [
         [
             "UsbTreeView.exe",
