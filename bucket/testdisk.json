@@ -1,26 +1,38 @@
 {
     "homepage": "https://www.cgsecurity.org/wiki/TestDisk",
     "description": "TestDisk is powerful free data recovery software!",
-    "version": "7.2",
+    "version": "7.3",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://www.cgsecurity.org/testdisk-7.2-WIP.win64.zip",
-            "hash": "0d5a140f6e791d3b16aa9f43f724c665d61a41238cf81dbe815785f30e3dd4f3" 
+            "url": "https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.3-WIP.win64.zip",
+            "hash": "d8cca79403338b4e85c2d178e2ca4e5b4bd0c6e08f5ec2de74878c8ea7e618f7"
         },
         "32bit": {
-            "url": "https://www.cgsecurity.org/testdisk-7.2-WIP.win.zip",
-            "hash": "8f7d03ca52f7e23f24fc06ec0d3f1d408a8ef8a233cc52bc9eccb6f36d944b23"
+            "url": "https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.3-WIP.win.zip",
+            "hash": "4f7547515bef880ae4e167c738d26d905fd433c793e90dc4475408dc5223fac1"
         }
     },
     "extract_dir": "testdisk-7.2-WIP",
     "bin": [
-        ["testdisk_win.exe", "testdisk"],
-        ["photorec_win.exe", "photorec"],
-        ["qphotorec_win.exe", "qphotorec"]
+        [
+            "testdisk_win.exe",
+            "testdisk"
+        ],
+        [
+            "photorec_win.exe",
+            "photorec"
+        ],
+        [
+            "qphotorec_win.exe",
+            "qphotorec"
+        ]
     ],
     "shortcuts": [
-        ["qphotorec_win.exe", "QPhotoRec"]
+        [
+            "qphotorec_win.exe",
+            "QPhotoRec"
+        ]
     ],
     "checkver": {
         "url": "https://www.cgsecurity.org/wiki/TestDisk_Download",
