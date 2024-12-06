@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/dcs-liberation/dcs_liberation",
     "description": "DCS World dynamic campaign.",
-    "version": "11.1.1",
+    "version": "12.0.1",
     "license": "LGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dcs-liberation/dcs_liberation/releases/download/11.1.1/dcs_liberation.11.1.1.zip",
-            "hash": "3ff99784cd4756b6fdee7e9686ff5a56b90bc0be341993aa3d04786e9aa57b20"
+            "url": "https://github.com/dcs-liberation/dcs_liberation/releases/download/12.0.1/dcs_liberation.12.0.1.zip",
+            "hash": "a1a774e10dd8201edce2b647113fcab76704f030ab19094033f87128b559ed84"
         }
     },
     "extract_dir": "dcs_liberation",
