@@ -12,7 +12,6 @@
     "pre_install": "7z x \"$dir\"(Get-ChildItem -Filter Faust*.exe | Select-Object -ExpandProperty Name) -o\"$dir\"",
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-        "Remove-Item \"$dir\\Uninstall.exe\" -Force",
         "Remove-Item \"$dir\\Faust*.exe\" -Force"
     ],
     "bin": [
