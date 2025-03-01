@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.veracrypt.fr/en/Home.html",
     "description": "VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux.",
-    "version": "1.26.15",
+    "version": "1.26.20",
     "license": "Apache-2.0",
-    "url": "https://launchpad.net/veracrypt/trunk/1.26.15/+download/VeraCrypt%20Portable%201.26.15.exe",
-    "hash": "9678c92aea7f557b7522f6dc942fa1d00e813dfde4e7774c61e37c19e914a3a4",
+    "url": "https://launchpad.net/veracrypt/trunk/1.26.20/+download/VeraCrypt%20Portable%201.26.20.exe",
+    "hash": "89e86266d2a5814788ef3648ca9fffdc0c37550065cf1e349b62c37cecc89349",
     "installer": {
         "script": [
             ".$dir\\VeraCrypt%20Portable%20$version.exe",
