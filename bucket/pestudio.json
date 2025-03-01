@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.winitor.com/index.html",
     "description": "Malware Initial Assessment",
-    "version": "9.59",
+    "version": "9.60",
     "license": "Freeware",
-    "url": "https://www.winitor.com/tools/pestudio/current/pestudio-9.59.zip",
-    "hash": "d619b80c80810eaa0a80265ae4990fa23866edfdb5d3303e795b0fd2901907eb",
+    "url": "https://www.winitor.com/tools/pestudio/current/pestudio-9.60.zip",
+    "hash": "acc8eac2b5060d81c1285c2c6b050d18a045b7c659e6bf11cfcaada3c00bd1dd",
     "extract_dir": "pestudio",
     "bin": [
         [
