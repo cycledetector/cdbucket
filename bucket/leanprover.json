@@ -1,11 +1,11 @@
 {
     "homepage": "http://leanprover.github.io/",
     "description": "Lean Theorem Prover",
-    "version": "4.16.0",
+    "version": "4.17.0",
     "license": "Apache-2.0",
-    "url": "https://github.com/leanprover/lean4/releases/download/v4.16.0/lean-4.16.0-windows.zip",
-    "hash": "3e690c518f06b22aec8666bc74a2eaa882bf7d6804c3c5f0b9d862bc1c97ab1e",
-    "extract_dir": "lean-4.16.0-windows",
+    "url": "https://github.com/leanprover/lean4/releases/download/v4.17.0/lean-4.17.0-windows.zip",
+    "hash": "d12ab70e5dd9ac1255f65f51f7fa5744ddc5512528d354b4b4ff5374a8e33e3a",
+    "extract_dir": "lean-4.17.0-windows",
     "bin": [
         [
             "bin\\lean.exe",
