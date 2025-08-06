@@ -1,12 +1,12 @@
 {
     "homepage": "https://faust.grame.fr/",
     "description": "Functional Programming Language for Real Time Signal Processing",
-    "version": "2.79.3",
+    "version": "2.81.2",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grame-cncm/faust/releases/download/2.79.3/Faust-2.79.3-win64.exe",
-            "hash": "db7e144466f3b30de419c8c402ceba2c3ccba8493c39141c5df484387d2d0424"
+            "url": "https://github.com/grame-cncm/faust/releases/download/2.81.2/Faust-2.81.2-win64.exe",
+            "hash": "31667eb378cb560cb124ec9d6c85236644bc5191ccc49ed9f99de01e3d7c0b02"
         }
     },
     "pre_install": "7z x \"$dir\"(Get-ChildItem -Filter Faust*.exe | Select-Object -ExpandProperty Name) -o\"$dir\"",
