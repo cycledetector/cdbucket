@@ -1,7 +1,7 @@
 {
     "homepage": "https://lucaschess.pythonanywhere.com/",
     "description": "Chess program to train, play and compete.",
-    "version": "2.20c",
+    "version": "2.21",
     "license": "GPL-2.0-or-later",
     "url": "https://github.com/lukasmonk/lucaschessR2/releases/download/R2.20b/LucasChessR02_20c.exe",
     "hash": "c3faa88363a9d74b5381a2bef0a7ffd842daa6ddb78ce1d099bc41eb24cbd43a",
