@@ -1,12 +1,12 @@
 {
-    "version": "9.15.0.2501014",
+    "version": "9.16.1.25120847",
     "description": "A comic reader and manager",
     "homepage": "https://www.yacreader.com",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YACReader/yacreader/releases/download/9.15.0/YACReader-v9.15.0.2501014-winx64-7z-qt6.exe",
-            "hash": "eb7f96d550e1bccbeca9a8f52af0dabd1215810dc6232f9883d7e955892a5276"
+            "url": "https://github.com/YACReader/yacreader/releases/download/9.16.1/YACReader-v9.16.1.25120847-winx64-7z-qt6.exe",
+            "hash": "c21b2cb5d2eedcd5eacf9650abcfafa3332c5514acefb47438703ccfa8d07895"
         }
     },
     "innosetup": true,
